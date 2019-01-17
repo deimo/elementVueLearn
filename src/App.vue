@@ -3,19 +3,22 @@
     <img alt="Vue logo"
          src="./assets/logo.png">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <ElLayout></ElLayout>
+    <!-- <ElLayout></ElLayout> -->
+    <el-my-container></el-my-container>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import ElLayout from './components/ElLayout.vue'
+import ElMyContainer from './components/ELMyContainer.vue'
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
-    ElLayout
+    ElLayout,
+    ElMyContainer
   }
 }
 </script>
