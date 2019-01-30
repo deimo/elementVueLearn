@@ -8,7 +8,10 @@
     <!-- <ELIcon></ELIcon> -->
     <!-- <ElMyButton></ElMyButton> -->
     <!-- <ELRadioDemo></ELRadioDemo> -->
-    <ElCheckBoxDemo></ElCheckBoxDemo>
+    <!-- <ElCheckBoxDemo></ElCheckBoxDemo> -->
+    <!-- <ElInputDemo></ElInputDemo> -->
+    <ElInputDemo2></ElInputDemo2>
+
   </div>
 </template>
 
@@ -20,6 +23,8 @@ import ELIcon from './components/ElIcon.vue'
 import ElMyButton from './components/ElMyButton.vue'
 import ELRadioDemo from './components/ElRadioDemo.vue'
 import ElCheckBoxDemo from './components//ElCheckBoxDemo.vue'
+import ElInputDemo from './components/ElInputDemo.vue'
+import ElInputDemo2 from './components/ElInputDemo2.vue'
 
 export default {
   name: 'app',
@@ -31,6 +36,8 @@ export default {
     ElMyButton,
     ELRadioDemo,
     ElCheckBoxDemo,
+    ElInputDemo,
+    ElInputDemo2,
   }
 }
 </script>
