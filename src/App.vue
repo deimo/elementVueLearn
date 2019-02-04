@@ -11,7 +11,8 @@
     <!-- <ElCheckBoxDemo></ElCheckBoxDemo> -->
     <!-- <ElInputDemo></ElInputDemo> -->
     <!-- <ElInputDemo2></ElInputDemo2> -->
-    <InputNumberDemo></InputNumberDemo>
+    <!-- <InputNumberDemo></InputNumberDemo> -->
+    <ElSelectDemo></ElSelectDemo>
 
   </div>
 </template>
@@ -27,6 +28,7 @@ import ElCheckBoxDemo from './components//ElCheckBoxDemo.vue'
 import ElInputDemo from './components/ElInputDemo.vue'
 import ElInputDemo2 from './components/ElInputDemo2.vue'
 import InputNumberDemo from './components/InputNumberDemo.vue'
+import ElSelectDemo from './components/ElSelectDemo.vue'
 
 export default {
   name: 'app',
@@ -41,6 +43,7 @@ export default {
     ElInputDemo,
     ElInputDemo2,
     InputNumberDemo,
+    ElSelectDemo,
   }
 }
 </script>
