@@ -12,7 +12,8 @@
     <!-- <ElInputDemo></ElInputDemo> -->
     <!-- <ElInputDemo2></ElInputDemo2> -->
     <!-- <InputNumberDemo></InputNumberDemo> -->
-    <ElSelectDemo></ElSelectDemo>
+    <!-- <ElSelectDemo></ElSelectDemo> -->
+    <ElCascaderDemo></ElCascaderDemo>
 
   </div>
 </template>
@@ -29,6 +30,7 @@ import ElInputDemo from './components/ElInputDemo.vue'
 import ElInputDemo2 from './components/ElInputDemo2.vue'
 import InputNumberDemo from './components/InputNumberDemo.vue'
 import ElSelectDemo from './components/ElSelectDemo.vue'
+import ElCascaderDemo from './components/ElCascaderDemo.vue'
 
 export default {
   name: 'app',
@@ -44,6 +46,7 @@ export default {
     ElInputDemo2,
     InputNumberDemo,
     ElSelectDemo,
+    ElCascaderDemo,
   }
 }
 </script>
